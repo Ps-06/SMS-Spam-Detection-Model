@@ -25,7 +25,7 @@ The model follows these steps to classify messages:
 ## Implementation Steps
 
 ### 1. Data Collection
-Collect a dataset of SMS messages with labels (`spam` or `non_spam`). A sample dataset can be found [here](https://bit.ly/3s8E7ei).
+Collect a dataset of SMS messages with labels (`spam` or `non_spam`). A sample dataset can be found [here]([https://bit.ly/3s8E7ei](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download)).
 
 ```bash
 # Download the dataset
@@ -186,4 +186,9 @@ To deploy this model:
    - Retrain the model periodically with fresh data to maintain accuracy.
   
 # Considerations
-- 
+- **Model Monitoring**: Regularly check the model's performance metrics to ensure it remains effective against new types of spam.
+- **Data Reuse**: Periodically retrain the model on new datasets to adapt to evolving spamming techniques.
+- **Cost-Benefit Analysis**: Evaluate the costs associated with false positives (legitimate messages flagged as spam) and false negatives (spam messages not detected).
+- **User Feedback**: Incorporate user feedback into the model to improve its ability to detect unknown types of spam.
+
+This repository provides a comprehensive approach to building an SMS spam detection model using NLP techniques. The modular structure allows for easy customization based on specific requirements and datasets.
