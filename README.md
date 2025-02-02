@@ -30,3 +30,7 @@ Collect a dataset of SMS messages with labels (`spam` or `non_spam`). A sample d
 ```bash
 # Download the dataset
 wget https://bit.ly/3s8E7ei
+```
+
+### 2. Text Processing
+The preprocessing steps include:
