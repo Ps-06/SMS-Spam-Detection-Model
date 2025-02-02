@@ -25,7 +25,7 @@ The model follows these steps to classify messages:
 ## Implementation Steps
 
 ### 1. Data Collection
-Collect a dataset of SMS messages with labels (`spam` or `non_spam`). A sample dataset can be found [here]([https://bit.ly/3s8E7ei](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download)).
+Collect a dataset of SMS messages with labels (`spam` or `non_spam`). A sample dataset can be found [here](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download).
 
 ```bash
 # Download the dataset
